@@ -29,7 +29,6 @@ impl <T> TreeNode<T> {
             parent.unwrap().core.borrow_mut().child_nodes.push(result.clone());
         }
 
-
         return result;
     }
     /*
