@@ -8,7 +8,7 @@ pub struct TreeNode<T> {
 
 //pub type TreeNode<T> = Rc<RefCell<NodeCore<T>>>;
 #[derive(Debug)]
-struct NodeCore<T>{
+pub struct NodeCore<T>{
     value: T,
     parent: Option<TreeNode<T>>,
     child_nodes: Vec<TreeNode<T>>

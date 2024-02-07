@@ -1,7 +1,7 @@
 pub mod tree_node;
 
-
-
+pub use crate::tree_node::TreeNode;
+pub use crate::tree_node::NodeCore;
 #[cfg(test)]
 mod tests {
     use crate::tree_node::TreeNode;
